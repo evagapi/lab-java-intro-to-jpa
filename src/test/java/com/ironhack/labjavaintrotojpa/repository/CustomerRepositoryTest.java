@@ -40,14 +40,14 @@ public class CustomerRepositoryTest {
     }
 
     @Test
-    public void findByCustomerName() {
+    public void findByCustomerNameTest() {
         Optional<Customer> customer = customerRepository.findByCustomerName("Hedi Lamarr");
         assertTrue(customer.isPresent());
         assertEquals("Hedi Lamarr", customer.get().getCustomerName());
     }
 
     @Test
-    public void findByCustomerStatus() {
+    public void findByCustomerStatusTest() {
         Optional<Customer> customer = customerRepository.findByCustomerStatus(CustomerStatus.SILVER);
         assertTrue(customer.isPresent());
         assertEquals(CustomerStatus.SILVER, customer.get().getCustomerStatus());
