@@ -85,15 +85,15 @@ Create a class called `FlightBooking` with the following variables:
 ## Tasks
 
 - [x] Create all the necessary repositories and entities for the `Customer` table.
-- [ ] Create all the necessary repositories and entities for the `Flight` table.
+- [x] Create all the necessary repositories and entities for the `Flight` table.
 - [ ] Create all the necessary repositories and entities for the `FlightBooking` table.
 - [x] Write tests to verify your ability to create new customers.
-- [ ] Write tests to verify your ability to create new flights.
+- [x] Write tests to verify your ability to create new flights.
 - [x] Write tests to verify your ability to find customers by name.
 - [x] Write tests to verify your ability to find customers by status.
-- [ ] Write tests to verify your ability to find flights by flight number.
-- [ ] Write tests to verify your ability to find aircraft with names containing "Boeing".
-- [ ] Write tests to verify your ability to find flights with a distance greater than 500 miles.
+- [x] Write tests to verify your ability to find flights by flight number.
+- [x] Write tests to verify your ability to find aircraft with names containing "Boeing".
+- [x] Write tests to verify your ability to find flights with a distance greater than 500 miles.
 
 <br>
 
